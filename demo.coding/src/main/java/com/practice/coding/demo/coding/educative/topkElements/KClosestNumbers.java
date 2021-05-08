@@ -14,6 +14,7 @@ class Entry{
 
 public class KClosestNumbers {
 
+    //k closest numbers
     public static int[] kClosestNumbers(int[] a, int k, int x){
        int index = binarySearch(a, x);
        int low = index - k;
